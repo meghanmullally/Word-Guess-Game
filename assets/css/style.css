@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/triangular.png")
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Diplomata' , cursive;
+}
+
+h2 {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
