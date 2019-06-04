@@ -3,7 +3,7 @@
 function getItem(){
   // words to guess 
   var words = ['spain', 'japan', 'thailand', 'france', 'united kingdom', 'mexio', 'canada'];
-  document.getElementById("wordGuess").innerHTML = word[Math.floor(Math.random() * words.length)];
+  document.getElementById("wordGuess").innerHTML = words[Math.floor(Math.random() * words.length)];
 
 // Displays possible words and blank spaces 
 
