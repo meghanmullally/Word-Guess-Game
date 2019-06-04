@@ -20,25 +20,42 @@
 
 <body>
   <div class="wrapper">
-    <h1>HangMan <i class="fas fa-map-marked-alt"></i> Style</h1>
+    <h1>HangMan Travel Style</h1>
+    <!-- <i class="fas fa-map-marked-alt"></i>  -->
   </div>
+
   <div id="container">
     <div id="game section">
       <h2>Press any key to get started!</h2>
-      <div>
-        
-        <h2>Wins: <strong><u><span id="wins"></span></u></strong></h2>
-       
-        <h2>Current Word: <strong><u><span id="current-word"></span></u></strong></h2>
+    </div>
+    <!--Image div-->
+    <div id="band-div"><img src="">
+    </div>
 
-        <h2>Number of Guesses Remaining: <strong><u><span id="guesses-remaining"></span></u></strong></h2>
-
-        <h2>Letters Already Guessed: <strong><u><span id="lettersGuessed"></span></u></strong></h2>
+        <h2 class="section-title">Wins:</h2>
+        <!--Where the wins will be shown-->
+        <div id="wins"></div>
       </div>
+      <div id="current-word"></div>
+      <h2 class="section-title">Current Word</h2>
+      <!--div wehre current word / guessing process will go-->
+      <div id="current-word"></div>
+    </div>
+    <div id="guesses-remaining-section">
+      <h2 class="section-title">Number of Guesses Remaining: </h2>
+      <!--Remaining guesses g-->
+      <div id="guesses-remaining"></div>
+    </div>
+
+    <div id="guessed-letter-section">
+      <h2 id="section-title">Letters Already Guessed:</h2>
+      <!--Letters guessed area-->
+      <div id="lettersGuessed"></div>
     </div>
   </div>
 
 
+<!--JS LINK-->
   <script src="assets/javascript/game.js" type="text/javascript">
   </script>
 </body>
